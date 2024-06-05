@@ -12,3 +12,9 @@ urlpatterns = [
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     path('', include(router.urls))
 ]
+
+#Pequeño script para crear token a los usuarios
+# from rest_framework.authtoken.models import Token
+
+# for user in User.objects.all():
+#     Token.objects.get_or_create(user = user)

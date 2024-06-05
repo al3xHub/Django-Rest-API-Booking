@@ -1,0 +1,1 @@
+[{"model": "api.reservas", "pk": 1, "fields": {"user": 1, "recurso": 1, "fecha_inicio": "2024-06-04", "fecha_fin": "2024-06-04", "hora_inicio": "07:04:04", "hora_fin": "00:00:00", "estado": "SO", "_order": 0}}]
